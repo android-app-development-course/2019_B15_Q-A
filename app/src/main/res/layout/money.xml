@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/money_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="当前所剩积分：100"
+            android:textSize="16sp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mark_ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="80dp">
+        <Button
+            android:id="@+id/mark1"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="1"
+            android:background="@drawable/button_mark"></Button>
+        <Button
+            android:id="@+id/mark5"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="5"
+            android:background="@drawable/button_mark"></Button>
+        <Button
+            android:id="@+id/mark10"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="10"
+            android:background="@drawable/button_mark"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mark_112"
+        android:layout_below="@id/mark_ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="35dp">
+        <Button
+            android:id="@+id/mark20"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="20"
+            android:background="@drawable/button_mark"></Button>
+
+        <Button
+            android:id="@+id/mark50"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="50"
+            android:background="@drawable/button_mark"></Button>
+        <Button
+            android:id="@+id/mark100"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="100"
+            android:background="@drawable/button_mark"></Button>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/mark_ll3"
+        android:layout_below="@+id/mark_112"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="35dp">
+
+
+        <Button
+            android:id="@+id/mark200"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="200"
+            android:background="@drawable/button_mark"></Button>
+        <Button
+            android:id="@+id/mark500"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="500"
+            android:background="@drawable/button_mark"></Button>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mark_ll3"></TextView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity"
+    >
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_main"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#1e8ae8"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="#fff"
+        app:tabIndicatorHeight="4dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="#fff"
+        app:tabTextColor="#97c8f4"></android.support.design.widget.TabLayout>
+    <TextView
+        android:id="@+id/text_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+
+        android:layout_marginTop="50dp"
+        android:text="请选择问题类型"
+        android:textSize="25sp">
+
+    </TextView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_tv"
+        android:layout_marginTop="50dp"
+        >
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/it_btn"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button"
+                android:text="IT"
+                android:textSize="18sp"></Button>
+
+            <Button
+                android:id="@+id/makeup_btn"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button"
+                android:layout_marginLeft="8dp"
+                android:text="美妆"
+                android:textSize="18sp"></Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:layout_below="@id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/health_btn"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button"
+                android:text="健康"
+                android:textSize="18sp"></Button>
+
+            <Button
+                android:id="@+id/emotion_btn"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button"
+                android:layout_marginLeft="8dp"
+                android:text="情感"
+                android:textSize="18sp"></Button>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll3"
+            android:layout_below="@id/ll2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/camera_btn"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button"
+
+                android:text="摄影"
+                android:textSize="18sp"></Button>
+
+            <Button
+                android:id="@+id/study_btn"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button"
+                android:layout_marginLeft="8dp"
+                android:text="学习"
+                android:textSize="18sp"></Button>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

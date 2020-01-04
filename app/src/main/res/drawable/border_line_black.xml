@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:useLevel="false"
+    >
+        <solid android:color="@null"/>
+        <padding android:left="-5dip"
+            android:top="5dip"
+            android:right="-5dip"
+            android:bottom="0dip"/>
+
+        <stroke android:width="2dip"
+            android:color="#7D7676"
+            />
+        <!--边框宽度-->
+        <size android:width="5dip"
+            android:height="5dip"
+            />
+        <!--边框-->
+
+
+</shape>
